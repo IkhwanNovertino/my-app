@@ -7,9 +7,9 @@ import Layout from '../component/layout'
 
 const Home: NextPage = () => {
   return (
-    <Layout>
-      <h1 className={styles['title-homepage']}>Welcome Ikhwan</h1>
-    </Layout>
+      <Layout titlePage="Home Page">
+        <h1 className={styles['title-homepage']}>Welcome Ikhwan</h1>
+      </Layout>
   )
 }
 

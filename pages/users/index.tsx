@@ -1,4 +1,6 @@
+import Head from "next/head";
 import Layout from "../../component/layout";
+
 
 /**
  * Halaman ini digunakan jika kita ingin memlakukan routing ke "localhost:3000/users",
@@ -6,8 +8,10 @@ import Layout from "../../component/layout";
  */
 export default function Users() {
   return (
-    <Layout>
+    
+    <Layout titlePage="Users Page">
       <h1>Users Page</h1>
     </Layout>
+    
   )
 }
