@@ -3,18 +3,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import Header from '../component/header'
 
 
 const Home: NextPage = () => {
   return (
     <>
-      <header>
-        <ul>
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/blog">Blog</Link></li>
-          <li><Link href="/users">Users</Link></li>
-        </ul>
-      </header>
+    <Header />
       <h1>Welcome Ikhwan</h1>
     </>
   )

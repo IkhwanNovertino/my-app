@@ -4,9 +4,9 @@
  * karena users berbentuk folder maka harus ada file index didalamnya.
  */
 export default function Users() {
-    return (
-        <div>
-            <h1>Users Page</h1>
-        </div>
-    )
+  return (
+    <div>
+      <h1>Users Page</h1>
+    </div>
+  )
 }
