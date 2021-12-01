@@ -1,12 +1,13 @@
 import Link from "next/dist/client/link"
+import styles from "./Header.module.css"
 
 export default function Header() {
     return (
-      <header>
-        <ul>
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/blog">Blog</Link></li>
-          <li><Link href="/users">Users</Link></li>
+      <header className={styles.container}>
+        <ul className={styles.list}>
+          <li className={styles.item}><Link href="/">Home</Link></li>
+          <li className={styles.item}><Link href="/blog">Blog</Link></li>
+          <li className={styles.item}><Link href="/users">Users</Link></li>
         </ul>
       </header>
     )

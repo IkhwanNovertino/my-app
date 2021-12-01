@@ -1,3 +1,4 @@
+import Layout from "../../component/layout";
 
 /**
  * Halaman ini digunakan jika kita ingin memlakukan routing ke "localhost:3000/users",
@@ -5,8 +6,8 @@
  */
 export default function Users() {
   return (
-    <div>
+    <Layout>
       <h1>Users Page</h1>
-    </div>
+    </Layout>
   )
 }
