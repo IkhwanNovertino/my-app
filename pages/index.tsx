@@ -1,11 +1,22 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+
 
 const Home: NextPage = () => {
   return (
-    <h1>Welcome Ikhwan</h1>
+    <>
+      <header>
+        <ul>
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/blog">Blog</Link></li>
+          <li><Link href="/users">Users</Link></li>
+        </ul>
+      </header>
+      <h1>Welcome Ikhwan</h1>
+    </>
   )
 }
 
